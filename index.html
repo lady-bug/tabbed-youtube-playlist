@@ -1,0 +1,28 @@
+<html>
+<head><title>Tabbed YouTube playlist</head>
+<style>
+#ytnavigation{max-width:600px;}
+#ytnavigation ul{list-style:none none;margin:0 0 1em 0;padding:0;}
+#ytnavigation li{margin:0;padding:0;}
+#ytnavigation a{display:block;line-height:1;margin:0;padding:.6rem .5rem .5rem .5rem;}
+#ytnavigation a.current{background-color:#588303;color:#fff;}
+@media only screen and (min-device-width: 40em) and (min-width: 40em),
+only screen and (min-device-width: 40em) and (min-width: 40em) and (min-aspect-ratio: 1 / 1) {
+    #ytnavigation li{display:inline-block;}
+}
+</style>
+<body>
+<h2>Select the video to watch:</h2>
+<div id="ytnavigation" class="clearfix">
+<ul>
+<li><a href="https://www.youtube.com/watch?v=djV11Xbc914" target="_blank" data-video-index="0" data-video-lang="en" data-video-id="djV11Xbc914">Take On Me</a></li>
+<li><a href="https://www.youtube.com/watch?v=egZ_wCYP_VM" target="_blank" data-video-index="1" data-video-id="egZ_wCYP_VM">The Sun Always Shines</a></li>
+<li><a href="https://www.youtube.com/watch?v=s6VaeFCxta8" target="_blank" data-video-index="2" data-video-id="s6VaeFCxta8">Hunting High And Low</a></li>
+</ul>
+</div>
+<div class="video-wrapper">
+<div id="ytplayer"></div>
+</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
