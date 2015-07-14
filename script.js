@@ -6,7 +6,7 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 // Creates an iframe (and YouTube player) after the API code downloads.
 var ytplayer;
 //videos IDs in index order
-var playlistIDs = 'djV11Xbc914,egZ_wCYP_VM,s6VaeFCxta8';//index 0, 1, 2
+var playlistIDs = 'wI2xQkjO4QA,67Y2qD_rtJ8,16tm4pM9vEU';//index 0, 1, 2
 function onYouTubeIframeAPIReady() {
   ytplayer = new YT.Player('ytplayer', {
     modestbranding :1,
@@ -26,7 +26,6 @@ function onPlayerReady(event) {
 
 (function($) {
 
-   
     $(document).ready(function(){
         var links = $('#ytnavigation a');
         links.eq(0).addClass('current');
